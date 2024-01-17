@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tributos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">    
+       
+    <script src="./js/scripts.js" defer></script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="calc-container"  >
+            <h2>Calculadora de Tributos</h2>
+            <img src="./assets/Imagem2.png" title="Logo igreja" />
+            <p>Informe sua renda para calcular o <br>valor de sua Prímicia e de seu Dízimo.</p>
+            <form id="imc-form">
+                <div class="form-inputs">
+                    <div class="form-control">
+                       <!-- <label for="renda"></label> -->
+                        <input type="text" name="renda" id="renda" placeholder="Digite sua renda:" autocomplete="off"  >
+                    </div>
+                </div>
+                <div class="action-control">
+                    <button type="submit" id="calc-btn">Calcular</button>
+                    <button type="submit"  id="clear-btn">Limpar</button>
+                </div>
+            </form>
+        </div>
+        <div id="result-container"  class="hide">
+                <h2>Calculadora de Tributos</h2>
+                <img src="./assets/Imagem2.png" title="Logo igreja" />
+                <p id="primicia">Valor de sua Prímicia é R$ <span></span>.</p>
+                <p id="dizimo">Valor do seu Dízimo é R$ <span></span>.</p>
+                <p id="oferta">Valor da sua Semeadura é R$ <span></span>.</p>
+                <h2>Ezequiel 44:30</h2>
+                <p class="texto">E as primícias de todos os primeiros frutos de tudo, e toda a oblação de tudo, de todas as vossas oblações, serão dos sacerdotes; também as primeiras das vossas massas dareis ao sacerdote, para que faça repousar a bênção sobre a tua casa. </p>
+                <h2>Malaquias 3:10</h2>
+                <p class="texto">Tragam o dízimo todo ao depósito do templo, para que haja alimento em minha casa. Ponham-me à prova", diz o Senhor dos Exércitos, "e vejam se não vou abrir as comportas dos céus e derramar sobre vocês tantas bênçãos que nem terão onde guardá-las.</p>  
+                <h2>Gênesis 26:12</h2>
+                <p class="texto">E semeou Isaque naquela mesma terra, e colheu naquele mesmo ano cem medidas, porque o Senhor o abençoava.</p>
+
+                <button type="submit" id="back-btn">Voltar</button>
+        </div>
+        
+    </div>
+           
+    <footer class="rodape">
+        <p> &copy; Desenvolvido por Cristiano-Araújo. <br>
+        Todos os direitos reservados.</p>
+    </footer>
+
+</body> 
+</html>
